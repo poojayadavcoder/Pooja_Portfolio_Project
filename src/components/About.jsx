@@ -6,7 +6,7 @@ import MainAboutPage from "./MainAboutPage";
 export default function About() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="w-full min-h-[245px] bg-gray-950 boxShadow2 flex justify-center items-center flex-col gap-5 relative">
+    <div className="w-full min-h-[245px]  boxShadow2 flex justify-center items-center flex-col gap-5 relative">
       <h1 className="text-[20px] sm:text-2xl font-bold capitalize logo textColor2 text-center">
         If you want to Know More about me than click here
       </h1>

@@ -35,7 +35,7 @@ export default function Banner() {
 
   return (
     <div
-      className="w-[100%] h-[550px] sm:h-[600px] bg-gray-950 relative overflow-hidden flex
+      className="w-[100%] h-[550px] sm:h-[600px] relative overflow-hidden flex
      justify-start items-center pt-[150px] gap-3 flex-col"
     >
       <ThreeCanvas />

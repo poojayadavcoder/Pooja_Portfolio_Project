@@ -4,6 +4,10 @@ import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { useEffect } from "react";
+import MainAboutPage from "./MainAboutPage";
+import AboutPage from "./AboutPage";
+import Professional from "./Professional";
+import CommunityActivity from "./CommunityActivity";
 
 export default function Home() {
   useEffect(() => {
@@ -23,12 +27,15 @@ export default function Home() {
       }
     }
   }, []);
-  console.log("Hi");
+
   return (
     <div>
       <Banner />
-      <About />
+      {/* <About /> */}
+      <AboutPage/>
       <Work />
+      <Professional/>
+      <CommunityActivity/>
       <Contact />
       <Footer />
     </div>

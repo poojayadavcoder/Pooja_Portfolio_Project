@@ -10,12 +10,7 @@ const LinkArr = [
     mainName: "LinkedIn"
   },
   {
-    link: 'https://wa.me/917410903250',
-    name: <i className="fa-brands fa-whatsapp"></i>,
-    mainName: "WhatsApp"
-  },
-  {
-    link: 'https://github.com/pooja5-creator',
+    link: 'https://github.com/poojayadavcoder',
     name: <i className="fa-brands fa-github"></i>,
     mainName: "GitHub"
   },

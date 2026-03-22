@@ -10,7 +10,7 @@ export default function Header() {
   const tooltipClasses = "tooltipText logo textShadow";
 
   return (
-    <div className="w-full bg-gray-950 z-50 boxShadow relative px-3">
+    <div className="w-full  z-50 boxShadow relative px-3">
       <header className="max-w-[1220px] px-3 mx-auto flex justify-between items-center h-[100px]">
         <h1 className="logo text-3xl text-orange-600 border border-orange-600 font-bold px-2 py-1">
           PY
@@ -40,17 +40,17 @@ export default function Header() {
       </header>
       {/* Slide-in from Right - Mobile Menu */}
       <div
-        className={`sm:hidden fixed top-0 right-0 w-[200px] h-full bg-gray-950 text-orange-600 
+        className={`sm:hidden fixed top-0 right-0 w-[200px] h-full  text-orange-600 
           transition-transform duration-500 ease-in-out z-40
            ${isOpen ? "translate-x-0" : "translate-x-full"}`}
       >
-        <div className="flex flex-col items-start px-4 py-10 gap-6">
+        <div className="flex flex-col items-start px-4 py-10 gap-6 bg-black">
           {LinkArr.map((linkItem, index) => {
             const isExternal =
               linkItem.link.startsWith("http") ||
               linkItem.link.startsWith("mailto");
             return isExternal ? (
-              <div className="group">
+              <div className="group" key={index}>
                 <a
                   key={index}
                   href={linkItem.link}

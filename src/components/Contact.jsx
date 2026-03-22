@@ -41,7 +41,7 @@ export default function Contact() {
 
   return (
     <div
-      className="w-full px-4 min-h-[300px] bg-gray-950 flex justify-center items-center boxShadow2 py-[60px] flex-col gap-5"
+      className="w-full px-4 min-h-[300px]  flex justify-center items-center boxShadow2 py-[60px] flex-col gap-5"
       id="contact"
     >
       <ToastContainer />
@@ -51,7 +51,7 @@ export default function Contact() {
       <div className="w-[130px] h-[1px] bg-gradient-to-t from-black to-orange-600"></div>
       <div className="w-[70px] h-[1px] bg-gradient-to-t bg-orange-600"></div>
       <div className="w-full min-h-[200px] flex justify-center items-center">
-        <div className="w-[95%] lg:w-[90%] xl:w-[75%] min-h-[620px] md:min-h-[600px] bg-gray-950 rounded-2xl relative py-[50px] overflow-hidden boxShadow4 mt-5 sm:mt-0">
+        <div className="w-[95%] lg:w-[90%] xl:w-[75%] min-h-[620px] md:min-h-[600px]  rounded-2xl relative py-[50px] overflow-hidden boxShadow4 mt-5 sm:mt-0">
           <CirclesGroup />
 
           <form

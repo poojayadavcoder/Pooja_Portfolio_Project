@@ -71,6 +71,15 @@ background-color: rgba(0, 95, 90, 0.247);
       animation: gradientMove 6s ease infinite;
 }
 
+/* Hide scrollbar but keep scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
       @keyframes gradientMove {
       0% {
         background-position: 0% 50%;
