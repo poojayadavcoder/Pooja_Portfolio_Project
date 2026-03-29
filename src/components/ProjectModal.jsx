@@ -33,7 +33,7 @@ const ProjectModal = ({ isOpen, project, onClose }) => {
             </button>
 
             {/* Image Section */}
-            <div className="w-full md:h-[200px] overflow-hidden">
+            <div className="w-full md:h-[250px] overflow-hidden">
               <img
                 src={project.image}
                 className="w-full h-full object-cover object-top"

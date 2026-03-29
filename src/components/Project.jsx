@@ -2,10 +2,10 @@ export default function Project({ projectImg, projectName, onClick }) {
   return (
     <div
       onClick={onClick}
-      className="max-w-[380px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[390px] w-full border-[1px]
+      className="max-w-[380px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px] w-full border-[1px]
        border-dashed border-y-orange-600
       border-x-white h-[220px] lg:h-[250px] sm:h-[250px] rounded-2xl flex justify-center 
-      px-3
+      px-3 
       items-center relative group cursor-pointer hover:scale-105 transition-all
       duration-300"
     >

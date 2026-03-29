@@ -26,10 +26,10 @@ export default function Work() {
       ></div>
       <div className="w-[100px] h-[1px] bg-gradient-to-t mt-0 sm:mt-[-12px] bg-orange-600"></div>
 
-      <div
+        <div
         className="w-full lg:max-w-[1300px] min-h-[350px] pt-5 md:pt-10 lg:pt-3 
-         flex justify-center lg:justify-between items-center gap-[60px] sm:gap-[30px] lg:gap-[20px] xl:gap-[100px] 
-         flex-wrap lg:flex-nowrap px-5"
+        flex justify-center items-center gap-16 flex-wrap
+          px-5 mt-5"
       >
         {projectData.map((project) => (
           <Project
