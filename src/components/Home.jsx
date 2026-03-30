@@ -1,6 +1,5 @@
 import Banner from "./Banner";
 import Work from "./Work";
-import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { useEffect } from "react";
@@ -23,7 +22,7 @@ export default function Home() {
             window.pageYOffset +
             yOffset;
           window.scrollTo({ top: y, behavior: "smooth" });
-        }, 100); // delay to ensure Contact is rendered
+        }, 100);
       }
     }
   }, []);
@@ -31,7 +30,6 @@ export default function Home() {
   return (
     <div>
       <Banner />
-      {/* <About /> */}
       <AboutPage/>
       <Work />
       <Professional/>

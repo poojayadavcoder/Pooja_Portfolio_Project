@@ -61,7 +61,7 @@ const Professional = () => {
       {/* Timeline */}
       <div className="max-w-7xl w-full relative">
         {/* Vertical Line */}
-        <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[1px] bg-gray-800 md:-translate-x-1/2"></div>
+        <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[1px] bg-gray-900 md:-translate-x-1/2"></div>
 
         <div className="space-y-12">
           {timelineData.map((item, index) => (

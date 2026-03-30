@@ -1,4 +1,3 @@
-import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const ProjectModal = ({ isOpen, project, onClose }) => {
@@ -8,7 +7,6 @@ const ProjectModal = ({ isOpen, project, onClose }) => {
     <AnimatePresence>
       {isOpen && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-          {/* Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -17,14 +15,13 @@ const ProjectModal = ({ isOpen, project, onClose }) => {
             className="absolute inset-0 bg-black/80 backdrop-blur-md"
           ></motion.div>
 
-          {/* Modal Content */}
           <motion.div
             initial={{ scale: 0.9, opacity: 0, y: 20 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.9, opacity: 0, y: 20 }}
             className="relative w-full md:w-[70%] bg-[#0a0a0a] border border-white/10 rounded-3xl overflow-y-auto  shadow-2xl flex flex-col no-scrollbar"
           >
-            {/* Close Button */}
+            
             <button
               onClick={onClose}
               className="absolute cursor-pointer top-4 right-4 z-10 p-2 bg-black/50 hover:bg-orange-600 rounded-full text-white transition-colors duration-300"
@@ -32,7 +29,6 @@ const ProjectModal = ({ isOpen, project, onClose }) => {
               <i className="fa-solid fa-xmark text-xl"></i>
             </button>
 
-            {/* Image Section */}
             <div className="w-full md:h-[250px] overflow-hidden">
               <img
                 src={project.image}
@@ -41,7 +37,6 @@ const ProjectModal = ({ isOpen, project, onClose }) => {
               />
             </div>
 
-            {/* Details Section */}
             <div className=" p-8 h-[300px] flex flex-col justify-between">
               <div>
                 <span className="text-orange-500 font-bold tracking-[0.2em] uppercase text-xs logo">
