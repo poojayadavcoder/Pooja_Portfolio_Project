@@ -9,8 +9,8 @@ const projectData = [
   name: "Code Snippets",
   image: codeSnippetImg,
   link: "https://code-snippet-tau.vercel.app/",
-  description: "A modern platform for developers to create, store, and manage code snippets. Users can securely register and log in using JWT authentication, organize their snippets, and quickly access reusable code whenever needed. The application focuses on clean UI, secure authentication with cookies, and efficient snippet management for developers.",
-  techStack: ["React", "Node.js", "MongoDB", "JWT Authentication", "Tailwind CSS"],
+  description: "A modern platform for developers to create, store, and manage code snippets. Users can securely register and log in using JWT authentication, organize their snippets with public or private visibility, and mark favorites, which update in real-time using sockets. The application emphasizes a clean and intuitive UI, secure authentication with cookies, and efficient snippet management tailored for developers.",
+  techStack: ["React", "Node.js", "MongoDB", "JWT Authentication", "API Integration","Socket"],
 },
  {
   id: 2,
