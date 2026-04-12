@@ -12,7 +12,7 @@ export default function Contact() {
 
     emailjs
       .sendForm("service_mfua1t5", "template_hsp1jzm", form.current, {
-        publicKey: "m1ij16SmV5Aq7C5SZ",
+        publicKey: "OKfDBiqz0vFX4M4q3",
       })
       .then(
         () => {
