@@ -5,17 +5,17 @@ import { motion } from "framer-motion";
  const timelineData = [
   {
     period: "Dec 2025 – Feb 2026",
-    role: "Junior Developer Intern (Paid)",
+    role: "Junior Developer Intern",
     company: "Xenotix Tech",
     details: [
       "Developed responsive web applications using React.js and Next.js.",
       "Worked with Node.js and MongoDB to build RESTful APIs.",
       "Improved application performance and optimized user experience.",
     ],
-  },
+  },  
   {
     period: "Aug 2025 – Nov 2025",
-    role: "Frontend Developer Intern (Paid)",
+    role: "Frontend Developer Intern",
     company: "Jaya Graphic Private Limited",
     details: [
       "Built scalable web applications using React.js and Next.js.",
