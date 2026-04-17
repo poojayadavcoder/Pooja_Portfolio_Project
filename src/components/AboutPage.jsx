@@ -27,29 +27,29 @@ const skills = [
     category: "CORE",
     icon: <i className="fa-solid fa-layer-group text-2xl text-orange-500"></i>,
   },
+
+  // Updated part 👇
+
   {
     name: "Node.js",
-    category: "LEARNING",
-    icon: <i className="fa-solid fa-gear text-2xl text-orange-500 animate-spin-slow"></i>,
-    isLearning: true,
+    category: "BACKEND",
+    icon: <i className="fa-brands fa-node-js text-2xl text-orange-500"></i>,
   },
-   {
+  {
     name: "Express.js",
-    category: "LEARNING",
-    icon: <i className="fa-solid fa-gear text-2xl text-orange-500 animate-spin-slow"></i>,
-    isLearning: true,
+    category: "BACKEND",
+    icon: <i className="fa-solid fa-server text-2xl text-orange-500"></i>,
   },
-   {
+  {
     name: "MongoDB",
-    category: "LEARNING",
-    icon: <i className="fa-solid fa-gear text-2xl text-orange-500 animate-spin-slow"></i>,
-    isLearning: true,
+    category: "DATABASE",
+    icon: <i className="fa-solid fa-database text-2xl text-orange-500"></i>,
   },
-    {
+
+  {
     name: "Sass",
-    category: "LEARNING",
-    icon: <i className="fa-solid fa-gear text-2xl text-orange-500 animate-spin-slow"></i>,
-    isLearning: true,
+    category: "STYLING",
+    icon: <i className="fa-brands fa-sass text-2xl text-orange-500"></i>,
   },
 ];
 
@@ -73,13 +73,30 @@ export default function AboutPage() {
 
           <div className="space-y-6 logo text-gray-400 text-lg md:text-xl leading-relaxed">
             <p>
-              I build responsive and scalable frontend applications using modern web technologies. My main focus is the React ecosystem, where I enjoy creating clean UI and reusable components.
+              I am a Junior Frontend Developer specializing in building
+              responsive and scalable web applications using React.js, Next.js,
+              and JavaScript. I focus on creating clean, reusable components and
+              delivering smooth user experiences.
             </p>
+
             <p>
-              I have worked on projects like a portfolio website, movie app, and sales management dashboard, where I implemented API integration and state management.
+              I have hands-on experience working on real-world projects such as
+              a portfolio website, movie application, and sales management
+              dashboard, where I implemented API integration and efficient state
+              management.
             </p>
+
             <p>
-              Currently, I am learning backend technologies to strengthen my understanding of full-stack development.
+              Along with frontend development, I also have working knowledge of
+              backend technologies including Node.js, Express.js, and MongoDB,
+              allowing me to understand and contribute to full-stack
+              development.
+            </p>
+
+            <p>
+              I pay strong attention to performance optimization, code
+              structure, and maintainability, ensuring that applications are not
+              only functional but also efficient and scalable.
             </p>
           </div>
 
@@ -119,7 +136,7 @@ export default function AboutPage() {
               <p className="text-[10px] font-bold text-gray-500 tracking-[0.2em] uppercase mt-1">
                 {skill.category}
               </p>
-              
+
               {skill.isLearning && (
                 <div className="absolute inset-0 rounded-2xl border border-orange-500/20 animate-pulse pointer-events-none"></div>
               )}
