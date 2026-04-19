@@ -10,9 +10,9 @@ export default function MainAboutPage({ setIsOpen }) {
     "JavaScript",
     "React.js",
     "Next.js",
-     "Node.js",
-     "Express.js",
-     "MongoDB",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
     "Redux",
     "HTML",
     "CSS",
@@ -94,19 +94,30 @@ export default function MainAboutPage({ setIsOpen }) {
             </div>
             <h1 className="logo text-[20px] sm:text-2xl font-semibold text-gray-100 mt-1 sm:mt-5">
               I'm Pooja Yadav a,{" "}
-              <span className="text-orange-600">MERN Stack Developer.</span>{" "}
+              <span className="text-orange-600">
+                MERN Stack Developer.
+              </span>{" "}
             </h1>
             <p className="text-gray-100 text-[15px] sm:text-[18px] logo text-justify">
-              I am a passionate MERN Stack Developer with strong experience in building modern and responsive web applications. My main focus is on creating clean, user-friendly interfaces using React.js and JavaScript, while also developing scalable backend services using Node.js, Express.js, and MongoDB.
-
-I enjoy turning ideas into real-world products by combining good design with efficient code. Recently, I have been expanding my skills in full-stack development by building APIs, managing databases, and integrating frontend applications with backend systems.
-
-I am always curious to learn new technologies, improve my problem-solving skills, and build applications that provide real value to users.
+              I am a passionate Full Stack Developer with strong experience in
+              building modern and responsive web applications. My main focus is
+              on creating clean, user-friendly interfaces using React.js and
+              JavaScript, while also developing scalable backend services using
+              Node.js, Express.js, and MongoDB. I enjoy turning ideas into
+              real-world products by combining good design with efficient code.
+              Recently, I have been expanding my skills in full-stack
+              development by building APIs, managing databases, and integrating
+              frontend applications with backend systems. I am always curious to
+              learn new technologies, improve my problem-solving skills, and
+              build applications that provide real value to users.
             </p>
             <p className="text-gray-100 text-[15px] sm:text-[18px] logo">
-              Feel free to explore my {" "}
-              <span className="text-orange-600">projects</span> and <span className="text-orange-600"> portfolio.</span>
-             If you are looking for someone who is passionate about building modern web applications and continuously improving their skills, I would be happy to connect and collaborate.
+              Feel free to explore my{" "}
+              <span className="text-orange-600">projects</span> and{" "}
+              <span className="text-orange-600"> portfolio.</span>
+              If you are looking for someone who is passionate about building
+              modern web applications and continuously improving their skills, I
+              would be happy to connect and collaborate.
             </p>
             <div
               className="w-full min-h-[50px] py-4 flex justify-start flex-wrap 

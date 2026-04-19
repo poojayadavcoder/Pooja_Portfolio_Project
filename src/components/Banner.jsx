@@ -70,7 +70,7 @@ export default function Banner() {
         className="text-[32px] sm:text-[40px] md:text-[43px] lg:text-[45px] xl:text-5xl mt-4 md:m-0 p-0 logo tracking-wide leading-tight textShadow
        text-gray-100 text-center  font-semibold"
       >
-        MERN Stack Developer <span className="text-teal-800 font-bold"></span>
+        Full Stack Developer <span className="text-teal-800 font-bold"></span>
       </h1>
 
       <p
