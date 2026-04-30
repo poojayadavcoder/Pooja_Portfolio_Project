@@ -1,8 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-
- const timelineData = [
+const timelineData = [
+  {
+    period: "April 2026 – Present",
+    role: "Full Stack Intern",
+    company: "ALDS (Aladinn Digital Solutions)",
+    details: [
+      "Working as a Full Stack Developer Intern on real-time projects.",
+      "Developing responsive web applications using React.js and Next.js.",
+      "Building and integrating backend APIs using Node.js, Express, and MongoDB.",
+      "Focusing on UI/UX improvements, performance optimization, and clean code structure.",
+    ],
+  },
   {
     period: "Dec 2025 – Feb 2026",
     role: "Junior Developer Intern",
@@ -12,7 +22,7 @@ import { motion } from "framer-motion";
       "Worked with Node.js and MongoDB to build RESTful APIs.",
       "Improved application performance and optimized user experience.",
     ],
-  },  
+  },
   {
     period: "Aug 2025 – Nov 2025",
     role: "Frontend Developer Intern",
@@ -85,7 +95,7 @@ const Professional = () => {
                 <div className="p-8 rounded-2xl border border-white/5 bg-white/5 hover:border-orange-500/30 transition-all duration-300 group relative overflow-hidden">
                   {/* Glow effect */}
                   <div className="absolute -inset-1 bg-gradient-to-r from-orange-600/0 via-orange-600/5 to-orange-600/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  
+
                   <span className="text-sm font-bold text-orange-500 logo">
                     {item.period}
                   </span>
@@ -97,7 +107,10 @@ const Professional = () => {
                   {item.details ? (
                     <ul className="space-y-3">
                       {item.details.map((detail, dIndex) => (
-                        <li key={dIndex} className="flex items-start gap-3 text-gray-400 text-sm md:text-base logo">
+                        <li
+                          key={dIndex}
+                          className="flex items-start gap-3 text-gray-400 text-sm md:text-base logo"
+                        >
                           <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange-600 flex-shrink-0"></span>
                           <span>{detail}</span>
                         </li>
