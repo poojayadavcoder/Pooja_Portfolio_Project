@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-// ?j
+
 const timelineData = [
   {
     period: "April 2026 – Present",
