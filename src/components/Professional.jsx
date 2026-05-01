@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const timelineData = [
   {
-    period: "April 2026 – Present",
+    period: "April 2028 – Present",
     role: "Full Stack Intern",
     company: "ALDS (Aladinn Digital Solutions)",
     details: [
