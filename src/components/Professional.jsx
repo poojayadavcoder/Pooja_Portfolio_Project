@@ -23,26 +23,26 @@ const timelineData = [
       "Improved application performance and optimized user experience.",
     ],
   },
-  {
-    period: "Aug 2025 – Nov 2025",
-    role: "Frontend Developer Intern",
-    company: "Jaya Graphic Private Limited",
-    details: [
-      "Built scalable web applications using React.js and Next.js.",
-      "Improved website performance and optimized page load speed.",
-      "Implemented modern UI components and responsive layouts.",
-    ],
-  },
-  {
-    period: "Jun 2025 – Jul 2025",
-    role: "Frontend Developer Intern",
-    company: "The Entrepreneurship Network (Limitless Technologies LLP)",
-    details: [
-      "Developed responsive UI for the PrepAI platform using React.js and Tailwind CSS.",
-      "Integrated RESTful APIs to display dynamic data.",
-      "Enhanced user experience through optimized UI components.",
-    ],
-  },
+  // {
+  //   period: "Aug 2025 – Nov 2025",
+  //   role: "Frontend Developer Intern",
+  //   company: "Jaya Graphic Private Limited",
+  //   details: [
+  //     "Built scalable web applications using React.js and Next.js.",
+  //     "Improved website performance and optimized page load speed.",
+  //     "Implemented modern UI components and responsive layouts.",
+  //   ],
+  // },
+  // {
+  //   period: "Jun 2025 – Jul 2025",
+  //   role: "Frontend Developer Intern",
+  //   company: "The Entrepreneurship Network (Limitless Technologies LLP)",
+  //   details: [
+  //     "Developed responsive UI for the PrepAI platform using React.js and Tailwind CSS.",
+  //     "Integrated RESTful APIs to display dynamic data.",
+  //     "Enhanced user experience through optimized UI components.",
+  //   ],
+  // },
 ];
 
 const Professional = () => {
