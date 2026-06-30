@@ -15,7 +15,7 @@ const LinkArr = [
     mainName: "GitHub"
   },
   {
-    link: 'https://drive.google.com/file/d/1qBkb051ssOoFZsIrAZWINPZvRQVm3zwq/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1FDTTkN_NajSH51Klm2V9MwfrNwS64_o_/view?usp=sharing',
     name: <i className="fa-solid fa-file"></i>,
     mainName: "Resume"
   },
