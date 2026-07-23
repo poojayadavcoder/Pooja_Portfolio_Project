@@ -7,22 +7,23 @@ const timelineData = [
     role: "Full Stack Intern",
     company: "ALDS (Aladinn Digital Solutions)",
     details: [
-      "Working as a Full Stack Developer Intern on real-time projects.",
-      "Developing responsive web applications using React.js and Next.js.",
-      "Building and integrating backend APIs using Node.js, Express, and MongoDB.",
-      "Focusing on UI/UX improvements, performance optimization, and clean code structure.",
+      "Developing and maintaining production-ready web and mobile applications using React.js, Next.js, and React Native.",
+      "Built Customer and Agent applications for the Neev multi-tenant platform by implementing new features, integrating REST APIs, and enhancing user experience.",
+      "Contributed to the Phintex Servicing Panel by developing new features, resolving bugs, and improving application performance.",
+      "Collaborated with backend developers to integrate APIs and deliver scalable, maintainable solutions while gaining exposure to end-to-end application development.",
     ],
   },
-  {
-    period: "Dec 2025 – Feb 2026",
-    role: "Junior Developer Intern",
-    company: "Xenotix Tech",
-    details: [
-      "Developed responsive web applications using React.js and Next.js.",
-      "Worked with Node.js and MongoDB to build RESTful APIs.",
-      "Improved application performance and optimized user experience.",
-    ],
-  },
+ {
+  period: "Dec 2025 – Feb 2026",
+  role: "Junior Developer Intern",
+  company: "Xenotix Tech",
+  details: [
+    "Developed and maintained the company's main website using Next.js.",
+    "Built a Sales Management application and an Admin application using React Native and Expo.",
+    "Developed backend APIs for the GoSociety project using Node.js.",
+    "Converted Figma designs into responsive, pixel-perfect user interfaces for the GoldenOak project."
+  ],
+},
   // {
   //   period: "Aug 2025 – Nov 2025",
   //   role: "Frontend Developer Intern",

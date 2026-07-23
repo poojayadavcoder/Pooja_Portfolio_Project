@@ -72,32 +72,31 @@ export default function AboutPage() {
           </div>
 
           <div className="space-y-6 logo text-gray-400 text-lg md:text-xl leading-relaxed">
-            <p>
-              I am a Junior Frontend Developer specializing in building
-              responsive and scalable web applications using React.js, Next.js,
-              and JavaScript. I focus on creating clean, reusable components and
-              delivering smooth user experiences.
-            </p>
+            <div className="space-y-6 logo text-gray-400 text-lg md:text-xl leading-relaxed">
+              <p>
+                I'm a Frontend Developer passionate about building modern,
+                responsive, and user-friendly web and mobile applications. I
+                enjoy transforming ideas into intuitive digital experiences by
+                writing clean, maintainable, and scalable code with a strong
+                focus on performance and usability.
+              </p>
 
-            <p>
-              I have hands-on experience working on real-world projects such as
-              a portfolio website, movie application, and sales management
-              dashboard, where I implemented API integration and efficient state
-              management.
-            </p>
+              <p>
+                My primary expertise is in React.js, Next.js, React Native,
+                JavaScript, and TypeScript. Alongside frontend development, I
+                have working knowledge of Node.js, Express.js, and MongoDB,
+                which helps me understand complete application workflows and
+                collaborate effectively with backend teams.
+              </p>
 
-            <p>
-              Along with frontend development, I also have working knowledge of
-              backend technologies including Node.js, Express.js, and MongoDB,
-              allowing me to understand and contribute to full-stack
-              development.
-            </p>
-
-            <p>
-              I pay strong attention to performance optimization, code
-              structure, and maintainability, ensuring that applications are not
-              only functional but also efficient and scalable.
-            </p>
+              <p>
+                I believe great applications are built through continuous
+                learning, attention to detail, and solving real-world problems.
+                I'm always looking for opportunities to improve my skills,
+                explore new technologies, and contribute to products that create
+                meaningful value for users.
+              </p>
+            </div>
           </div>
 
           <div className="flex flex-wrap gap-4 logo">

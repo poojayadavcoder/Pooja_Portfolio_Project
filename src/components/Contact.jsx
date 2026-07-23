@@ -11,9 +11,14 @@ export default function Contact() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_mfua1t5", "template_hsp1jzm", form.current, {
-        publicKey: "OKfDBiqz0vFX4M4q3",
-      })
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+        },
+      )
       .then(
         () => {
           toast.success("Message sent successfully!", {
@@ -35,7 +40,7 @@ export default function Contact() {
             bodyClassName: "text-zinc-900",
             progressClassName: "bg-zinc-900",
           });
-        }
+        },
       );
   };
 
