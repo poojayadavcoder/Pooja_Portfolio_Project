@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.iconHover {
+  @apply  group-hover:scale-110 transition-all duration-200 ease-linear text-[36px];
+}
+
+.tooltipText {
+  @apply absolute -bottom-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100
+  px-2 py-1 text-[16px] rounded text-gray-100 z-[9999] 
+  transition-all duration-200 whitespace-nowrap
+}
+
+
+         

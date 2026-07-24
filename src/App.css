@@ -1,0 +1,180 @@
+body{
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #010000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F54A00;
+  border-radius: 10px;
+}
+
+.logo{
+    font-family: "Philosopher", sans-serif;
+}
+  
+.boxShadow{
+    box-shadow: 1px 1px 5px rgb(64, 56, 47);
+}
+.boxShadow2 {
+     box-shadow: 1px 1px 5px rgb(235, 78, 26);
+}
+.boxShadow3 {
+     box-shadow: 0px 0px 20px 0px rgba(211, 58, 20, 0.391);
+}
+.boxShadow4 {
+     box-shadow: 0px 0px 20px 0px rgba(231, 96, 24, 0.47);
+}
+
+.btnShadow{
+    box-shadow: 0px 0px 12px 3px rgb(0, 95, 90);
+}
+.circleColor{
+    background: linear-gradient(10deg,#080505,#160d094b,#080505,#0c0b0b);
+}
+.backGroundColor{
+    background: linear-gradient(180deg,rgb(240, 241, 243),rgb(240, 241, 243),#e15c19,rgb(20, 11, 5));
+}
+.backGroundColor3{
+    background: linear-gradient(180deg,rgb(12, 13, 13),rgb(9, 9, 9),#e15c19,rgb(235, 233, 232));
+}
+.backGroundColor2{
+    /* background: linear-gradient(0deg,white,
+    rgba(239, 97, 9, 0.129),#0d0b0a53); */
+}
+.backGroundLayer{
+background-color: rgba(0, 95, 90, 0.247);
+}
+.backgroundColor3{
+   background: linear-gradient(180deg,rgb(10, 10, 10),rgb(7, 5, 5),#070606,rgb(9, 9, 9));
+}
+.circleColor2{
+   background: linear-gradient(140deg,hsla(23, 88%, 54%, 0.106),rgba(12, 6, 4, 0.962));
+  }
+.circleColor3{
+    background: linear-gradient(90deg,#08050551,#0706050f,#0904040f)
+}
+.backgroundColor{
+        background-color: rgba(3, 7, 18, 0.548);
+    }
+.backgroundColor2{
+      background: linear-gradient(80deg,rgba(234, 53, 17, 0.595),rgb(195, 176, 176),rgb(24, 203, 203),rgb(12, 13, 13));
+  }
+.textShadow{
+    text-shadow: 1px 2px rgb(245, 73, 0);
+}
+.textColor{
+    background: linear-gradient(180deg,rgb(236, 64, 21),rgb(240, 59, 14),rgb(235, 238, 237),rgb(64, 152, 140));
+      background-size: 100% 90%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientMove 6s ease infinite;
+}
+.textColor2{
+    background: linear-gradient(180deg,rgb(236, 64, 21),rgb(245, 241, 240),rgb(11, 88, 102),rgb(64, 152, 140));
+      background-size: 100% 90%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientMove 6s ease infinite;
+}
+
+/* Hide scrollbar but keep scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+      @keyframes gradientMove {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .animationClass{
+      background: linear-gradient(0deg,rgb(13, 13, 13),rgb(8, 7, 7),rgb(225, 84, 45),rgb(64, 152, 140));
+      animation: moveUp 1s ease-in-out infinite;
+    }
+    .animationClass2{
+      background: linear-gradient(0deg,rgb(13, 13, 13),rgb(8, 7, 7),rgb(225, 84, 45),rgb(64, 152, 140));
+      animation: moveUp2 1s ease-in-out infinite;
+     
+
+    }
+ @keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+ @keyframes moveUp2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+
+/* example Tailwind or CSS */
+.particles-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+
+/* Particle background styles */
+.particles-bg {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.particles-bg::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background-image: radial-gradient(white 1px, transparent 1px);
+  background-size: 20px 20px;
+  animation: moveParticles 60s linear infinite;
+  opacity: 0.08;
+}
+
+@keyframes moveParticles {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50px, -50px);
+  }
+}
